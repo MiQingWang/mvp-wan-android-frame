@@ -1,0 +1,4 @@
+rootProject.name='mvp-wan-android-frame'
+include ':app'
+include ':common-net'
+include ':common-app'

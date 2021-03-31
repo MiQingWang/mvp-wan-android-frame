@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api rootProject.ext.dependencies.kotlin
+    api rootProject.ext.dependencies.appcompat
+    api rootProject.ext.dependencies.core
+    testImplementation rootProject.ext.dependencies.junit
+    androidTestImplementation rootProject.ext.dependencies.test_junit
+    androidTestImplementation rootProject.ext.dependencies.test_espresso
+
+    api rootProject.ext.dependencies.retrofit
+    implementation rootProject.ext.dependencies.retrofit_converter_gson
+    implementation rootProject.ext.dependencies.retrofit_adapter_rxjava2
+    api rootProject.ext.dependencies.rxandroid2
+    api rootProject.ext.dependencies.rxjava2
+    api rootProject.ext.dependencies.converter_fastjson
+    api rootProject.ext.dependencies.dagger2
+    kapt rootProject.ext.dependencies.dagger2_compiler
+    api rootProject.ext.dependencies.logging_interceptor
+//    api rootProject.ext.dependencies.dagger2_android
+//    kapt rootProject.ext.dependencies.dagger2_android_processor
+}

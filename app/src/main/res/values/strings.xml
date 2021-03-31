@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">mvp-wan-android-frame</string>
+    <string name="nav_home_str">首页</string>
+    <string name="nav_knowledge_str">知识</string>
+    <string name="nav_project_str">项目</string>
+    <string name="nav_navigation_str">导航</string>
+    <string name="nav_mine_str">我的</string>
+    <string name="home_title_str">玩Android</string>
+    <string name="home_title_menu_search">搜索</string>
+    <string name="home_title_menu_sort">时间排序</string>
+    <string name="home_title_menu_pic">图墙模式</string>
+    <string name="home_title_menu_scan">扫一扫</string>
+</resources>

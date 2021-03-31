@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_ic_home_select"
+            android:title="@string/nav_home_str"/>
+
+        <item
+            android:id="@+id/nav_knowledge"
+            android:icon="@drawable/nav_ic_knowledge_select"
+            android:title="@string/nav_knowledge_str" />
+
+
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/nav_ic_navigation_select"
+            android:title="@string/nav_navigation_str" />
+
+
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/nav_ic_project_select"
+            android:title="@string/nav_project_str" />
+
+        <item
+            android:id="@+id/nav_mine"
+            android:icon="@drawable/nav_ic_mine_select"
+            android:title="@string/nav_mine_str" />
+
+
+</menu>

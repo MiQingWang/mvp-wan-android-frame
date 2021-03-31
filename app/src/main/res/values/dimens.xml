@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="topSize">26sp</dimen>
+    <dimen name="bigSize">24sp</dimen>
+    <dimen name="titleSize">22sp</dimen>
+
+    <dimen name="contentSize">21sp</dimen>
+    <dimen name="itemTitleSize">19sp</dimen>
+
+    <dimen name="itemTipsSize">18sp</dimen>
+    <dimen name="itemSmallSize">16sp</dimen>
+    <dimen name="tipsSize">15sp</dimen>
+    <dimen name="smallSize">13sp</dimen>
+
+    <dimen name="iconBigSize">52dp</dimen>
+    <dimen name="iconSize">32dp</dimen>
+    <dimen name="iconSmallSize">22dp</dimen>
+
+    <dimen name="cornerMarkSize">27dp</dimen>
+    <dimen name="cornerMarkSmallSize">20dp</dimen>
+
+    <dimen name="listIconSize">26dp</dimen>
+
+    <dimen name="menuIconSize">24dp</dimen>
+    <dimen name="menuIconSmallSize">20dp</dimen>
+
+
+
+</resources>

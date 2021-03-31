@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ce3d3a</color>
+    <color name="colorPrimaryDark">#ce3d3a</color>
+    <color name="colorAccent">#ce3d3a</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="appTitleColor">#ffffff</color>
+    <color name="appTitleBgColor">#ce3d3a</color>
+    <!-- 重要色值-->
+    <color name="appColor">#ce3d3a</color>
+    <color name="titleTextColor">#333333</color>
+    <color name="tipsTextColor">#477aac</color>
+
+    <!-- 一般色值-->
+    <color name="grey10">#666666</color>
+    <color name="grey9">#888888</color>
+    <color name="grey8">#999999</color>
+    <color name="grey7">#b2b2b2</color>
+    <color name="grey6">#cccccc</color>
+
+
+    <!-- 较弱色值-->
+    <color name="appBg">#f2f4f5</color>
+    <color name="colorSeparateBg">#0D000000</color>
+    <color name="colorLine">#1A000000</color>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_night">#902b2b</color>
+    <color name="colorPrimaryDark_night">#902b2b</color>
+    <color name="colorAccent_night">#902b2b</color>
+
+
+    <color name="appTitleColor">#ffffff</color>
+    <color name="appTitleBgColor">#111214</color>
+
+    <!-- 重要色值-->
+    <color name="appColor_night">#902b2b</color>
+    <color name="titleTextColor_night">#adaeb3</color>
+    <color name="tipsTextColor_night">#2b6e90</color>
+
+    <!-- 一般色值-->
+    <color name="grey10_night">#75777e</color>
+    <color name="grey9_night">#6b6c74</color>
+    <color name="grey8_night">#5b5d63</color>
+    <color name="grey7_night">#3e3f43</color>
+    <color name="grey6_night">#303134</color>
+
+
+    <!-- 较弱色值-->
+    <color name="appBg_night">#111214</color>
+    <color name="colorSeparateBg_night">#08FFFFFF</color>
+    <color name="colorLine_night">#0DFFFFFF</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/home_title_menu_search"
+            app:showAsAction="always"
+            />
+
+        <item
+            android:id="@+id/nav_sort"
+            android:icon="@drawable/ic_format_line_spacing_black_24dp"
+            android:title="@string/home_title_menu_sort"
+            app:showAsAction="never"/>
+
+
+        <item
+            android:id="@+id/nav_pic"
+            android:icon="@drawable/ic_burst_mode_black_24dp"
+            android:title="@string/home_title_menu_pic"
+            app:showAsAction="never"/>
+
+
+<!--        <item-->
+<!--            android:id="@+id/nav_project"-->
+<!--            android:icon="@drawable/ic_"-->
+<!--            android:title="@string/home_title_menu_scan" />-->
+
+
+</menu>
